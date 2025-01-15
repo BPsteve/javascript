@@ -4,7 +4,8 @@ const { decodeGenerator } = require('gpt-tokenizer');
 const tokens = [];
 
 let decodedText = '';
-for (const textChunk of decodeGenerator(tokens)) {
+for (const textChunk of decodeGenerator(tokens)) 
+{
   decodedText += textChunk;
 }
 
